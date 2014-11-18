@@ -1,9 +1,12 @@
 # Element query demos
 
-Element queries are a yet-proposed CSS module that allow developers to style elements based on their size and shape.
+*As yet unproposed*, the Element Queries CSS module allows developers to style elements based on their size and shape.
 
-This repository catalogs various Element query proposals realized through various JavaScript libraries.
+This repository catalogs Element Query implementations realized through JavaScript.
 
 ## Why
 
-Element queries are the natural and much-needed evolution of Media queries. Where Media Queries care about the size of the *screen*, Element Queries care about the size of the *thing*. As a result, element queries allow content to adapt to a wide range of viewing experiences without having to change the content itself, as well as reduce the complexity of stylesheets by removing the need to specify all of the possible layout configuration between the screen and an element.
+Element Queries are the natural and much-needed evolution of Media Queries.
+Where Media Queries cared about the size of the *screen*, Element Queries care about the size of the *thing*.
+As a result, Element Queries allow content to adapt to a wide range of viewing experiences without having to change the content itself.
+They also simplify stylesheets by removing the need to specify layout conditions between the screen and the element being styled.

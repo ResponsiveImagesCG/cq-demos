@@ -1,0 +1,3 @@
+[submodule "demos/hitch-element-queries"]
+	path = demos/hitch-element-queries
+	url = https://github.com/jonathantneal/hitch-element-queries

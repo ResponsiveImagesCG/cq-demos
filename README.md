@@ -1,6 +1,6 @@
 # Element query demos
 
-Element queries are a yet-proposed CSS module that allow developers to style elements based on their size.
+Element queries are a yet-proposed CSS module that allow developers to style elements based on their size and shape.
 
 This repository catalogs various Element query proposals realized through various JavaScript libraries.
 

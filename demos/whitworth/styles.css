@@ -1,34 +1,8 @@
-/* Demo template styles */
-
-.demo-head {
-	padding: 1.5em 1.5em 1.25em 1.5em;
-}
-.demo-head h1 {
-	color: #ccc;
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform: uppercase;
-	margin: 0;
-}
-.demo-head p {
-	margin: .25em 0;
-}
-
-/* Page Layout */
-img {
-	max-width: 100%;
-}
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.demo {
-	width: 98%;
-	margin: 0 auto;
-}
+/* Module Layouts */
 .col-a,
 .col-b {
 	clear: both;
+	float: left;
 }
 @media( min-width: 60em ) {
 	.col-a,
@@ -92,7 +66,7 @@ img {
 	}
 }
 
-/* Module Layout: Phase 2 */
+/* “Buy” Button Layout*/
 
 /* This doesn’t work across the board:
 .mod-cost {
@@ -121,7 +95,7 @@ http://cl.ly/image/2i0x2H432y3F
 		text-align: right;
 	}
 }
-@media( min-width: 95em ) {
+@media( min-width: 105em ) {
 	.mod-cost {
 		float: left;
 	}
@@ -158,38 +132,74 @@ http://cl.ly/image/2i0x2H432y3F
 }
 
 /* Theme */
+img {
+	max-width: 100%;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
+.demo {
+	background: rgba(255,255,255,.95);
+	width: 98%;
+}
+.demo {
+	width: 90%;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.demo:after {
+	content: "";
+	clear: both;
+	display: block;
+}
 html,
 body {
 	background: #222;
 	margin: 0;
 	padding: 0;
 }
-header {
+.demo header {
 	background: #333;
 	margin: 0;
 	padding: .5em 1.5em;
 	float: left;
 	width: 100%;
 }
-.demo {
-	bottom: 0;
-	float: left;
-	padding: 0 2%;
-	position: relative;
-	width: 100%;
-}
-
 .page-hed {
-	border-bottom: 2px solid rgba(255,255,255,.5);
-	color: rgba(255,255,255,.7);
-	font-size: 2em;
+	border-bottom: 2px solid rgba(0,0,0,.3);
+	color: #222;
+	font-size: 2.2em;
 	font-family: 'Pathway Gothic One', sans-serif;
-	padding-bottom: .25em;
+	padding-bottom: .1em;
+	text-transform: uppercase;
+}
+.logo-hed {
+	background: rgba(0,0,0,.8);
+	color: #fafafa;
+	font-size: 3em;
+	display: inline-block;
+	font-family: 'Pathway Gothic One', sans-serif;
+	line-height: .9;
+	margin: 1em 0 15% 0;
+	padding: .15em .5em;
+	text-transform: uppercase;
+}
+.demo-lead {
+	background: url(https://photos-5.dropbox.com/t/2/AAAYTfBBL7kMTYjgSxV8PFuQAeeqLSJ06SIJ5UdEtPpCZA/12/11115688/jpeg/1024x768/3/1432076400/0/2/hutch-header.jpg/CKi5pgUgASACIAMgBCAFIAYoASgCKAM/50Ak_jGJDAtLVz3-FvLjaHw3U3f8Pk-27DN2uwnQu_Q);
+	display: block;
+	margin: 0 auto;
+	min-height: 5em;
+	width: 90%;
+	background-size: cover;
 }
 
 .mod {
 	background: #fff;
+	margin-bottom: 1em;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 .mod:after {
 	content: "";

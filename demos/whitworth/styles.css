@@ -141,6 +141,10 @@ img {
 	box-sizing: border-box;
 }
 
+input {
+	cursor: pointer;
+}
+
 .demo {
 	background: rgba(255,255,255,.95);
 	width: 98%;

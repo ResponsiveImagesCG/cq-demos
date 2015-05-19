@@ -150,7 +150,7 @@ input {
 	width: 98%;
 }
 .demo {
-	width: 90%;
+	width: 97.5%;
 	padding: 0 2%;
 	margin: 0 auto;
 }
@@ -196,7 +196,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	min-height: 5em;
-	width: 90%;
+	width: 97.5%;
 	background-size: cover;
 }
 

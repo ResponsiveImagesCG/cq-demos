@@ -1,0 +1,17 @@
+{
+  "name": "Container-Query-Demos",
+  "description": "Demos illustrating a proposed “container query” syntax pattern",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ResponsiveImagesCG/ALA-Whitworth-Demo",
+  "bugs": "https://github.com/ResponsiveImagesCG/ALA-Whitworth-Demo/issues",
+  "license": "MIT",
+  "author": "Mat Marquis <mat@matmarquis.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ResponsiveImagesCG/ALA-Whitworth-Demo.git"
+  },
+  "devDependencies": {
+    "finalhandler": "^0.3.6",
+    "serve-static": "^1.9.3"
+  }
+}

@@ -64,9 +64,10 @@ The container query pseudo-polyfill used here is a modified version of <a href="
 
 ## Motivation
 
-Element Queries are the natural and much-needed evolution of Media Queries.
-Where Media Queries cared about the size of the *screen*, Element Queries care about the size of the *thing*.
-As a result, Element Queries allow content to adapt to a wide range of viewing experiences without having to change the content itself.
+Container Queries are the natural and much-needed evolution of Media Queries.
+
+Where Media Queries are concerned with the _viewport_ size, Container Queries are concernes with the styling child elements based on the size of a parent element. As a result, Container Queries allow content to adapt to a wide range of viewing experiences without having to change the content itself.
+
 They also simplify stylesheets by removing the need to specify layout conditions between the screen and the element being styled.
 
 ## Use cases

@@ -1,0 +1,64 @@
+/* Module Layouts */
+.col-a,
+.col-b {
+	clear: both;
+	float: left;
+}
+@media( min-width: 60em ) {
+	.col-a,
+	.col-b {
+		clear: none;
+	}
+	.col-a {
+		width: 70%;
+		float: left;
+	}
+	.col-b {
+		width: 27%;
+		float: right;
+	}
+}
+
+@media( min-width: 50em ) {
+	.three-col .mod {
+		display: inline-block;
+		float: left;
+		width: 30%;
+		margin: 0 5% 2em 0;
+	}
+	.three-col .mod:last-of-type {
+		margin-right: 0;
+		float: right;
+	}
+}
+
+/* Module layout */
+.mod img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 250px;
+}
+
+.mod:media( min-width: 425px ) img {
+	float: left;
+	width: 30%;
+	max-width: 9999px;
+}
+.mod:media( min-width: 425px ) .mod-header,
+.mod:media( min-width: 425px ) .mod-desc {
+	float: right;
+	width: 68%;
+	padding-left: 2%;
+}
+
+/* “Add to Cart” positioning */
+.mod:media( min-width: 320px ) .mod-cost {
+	float: left;
+}
+.mod:media( min-width: 320px ) .mod-buy {
+	float: right;
+}
+.mod:media( min-width: 320px ) .buy-remaining {
+	text-align: right;
+}

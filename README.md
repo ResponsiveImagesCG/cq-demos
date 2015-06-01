@@ -8,10 +8,11 @@ This repo uses a modified version of [Rob Brackett’s](https://github.com/Mr0gr
 
 1. Copy the `demo-template` directory to `/demos`
 2. Rename the directory to whatever you’d like to name your demo, or just a numbered `demoX`.
-3. Build a demo using any combination of `.el:media(min-width){}` and/or `.el:media(max-width){}` syntax. This can be as simple or as complex as you like; anything from changing a background color on an element to an entire page layout.
-4. Update the “Existing Demos” section of the `README` below with a link to your demo and a brief description.
-5. Send us a PR, and we’ll add your demo to the collection here.
-6. File an issue if you have any feedback at all—whether you ran into any problems using this pattern, have any suggestions for the syntax itself, or just want to share your thoughts on using it.
+3. Follow the “Quick Setup” instructions below.
+4. Build a demo using any combination of `.el:media(min-width){}` and/or `.el:media(max-width){}` syntax. This can be as simple or as complex as you like; anything from changing a background color on an element to an entire page layout.
+5. Update the “Existing Demos” section of the `README` below with a link to your demo and a brief description.
+6. Send us a PR, and we’ll add your demo to the collection here.
+7. File an issue if you have any feedback at all—whether you ran into any problems using this pattern, have any suggestions for the syntax itself, or just want to share your thoughts on using it.
 
 ## Existing Demos
 

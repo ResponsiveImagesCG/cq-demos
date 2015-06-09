@@ -84,4 +84,4 @@ They also simplify stylesheets by removing the need to specify layout conditions
 
 The simpliest use case is: “I have a widget that needs to look good in any column of our layout, whether that column is small, medium, or large.”
 
-Use cases are more fully documented in the [Use Cases and Requirements for Element Queries Editor’s Draft](http://responsiveimagescg.github.io/eq-usecases/).
+Use cases are more fully documented in the [Use Cases and Requirements for Container Queries Editor’s Draft](http://responsiveimagescg.github.io/cq-usecases/).

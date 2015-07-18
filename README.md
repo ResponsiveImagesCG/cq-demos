@@ -19,6 +19,9 @@ This repo uses a modified version of [Rob Brackett’s](https://github.com/Mr0gr
 **[Whitworth](http://responsiveimagescg.github.io/ALA-Whitworth-Demo/demo1/index.html)**<br>
 Illustrates how container queries could be used for both modular layout, and finessing smaller responsive design details (in this case, the position of the “add to cart” button).
 
+**Recursion**<br>
+Illustrates that container queries can still (as element queries) result in an infinite loop.
+
 ## Quick Setup
 
 These demos can only be viewed via HTTP—you can’t open the index files in your browser, if you’ve cloned the repo and want to tinker with these pages locally. You have two options for running this locally without wading through a bunch of Apache nonsense:

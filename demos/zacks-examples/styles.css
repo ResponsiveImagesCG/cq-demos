@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Myriad Pro", sans-serif;
+
+}
+
+.container {
+	width: 50%;
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.widget_image {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;	
+}
+
+.widget_text {
+	background: #ffeeee;
+	border: #aa2323 0.25em solid;
+	padding: 1em;
+}
+
+.widget_btn a {
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: #aa2323;
+	padding: 0.5em 1em;
+	display: block;
+}
+
+.container:media(min-width:30em) .widget_content {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.container:media(min-width:30em) .widget_text {
+	border-bottom: none;
+}
+
+.container:media(min-width:30em) .widget_image {
+	width: 40%;
+}

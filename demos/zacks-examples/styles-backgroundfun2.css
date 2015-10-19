@@ -1,0 +1,12 @@
+.container {
+	background: red;
+	width: 50%;
+}
+
+.inner {
+	background: green;
+}
+
+.container:media(min-width: 500px) > .inner {
+	background: red;
+}

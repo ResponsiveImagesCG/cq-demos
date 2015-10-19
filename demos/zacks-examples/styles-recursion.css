@@ -1,0 +1,16 @@
+.container {
+	background: red;
+	display: inline-block;
+}
+
+.inner {
+	width: 15em;
+	height: 15em;
+	background: red;
+	color: white;
+}
+
+.container:media(min-width: 10em) > .inner {
+	width: 5em;
+	background: green;
+}
